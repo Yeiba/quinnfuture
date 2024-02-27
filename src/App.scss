@@ -1,0 +1,138 @@
+/*-------------------------------------------------main-----------------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background-clip: border-box;
+    scrollbar-width: thin;
+    
+}
+img {
+    transition: 1s;
+    &:hover{
+        opacity: 1;
+    }
+    opacity:.3;
+    top: 0;
+    left: 0;
+    position: relative;
+    width: 100%;
+  
+}
+
+
+section::-webkit-scrollbar{
+    display: none;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+
+body {
+    background-color: rgb(142, 142, 142);
+    
+}
+
+
+//section::-webkit-scrollbar{
+    //display: none;
+//}
+
+//div::-webkit-scrollbar-button{
+    //display: none0
+//}
+#home {
+    background-color: #D1D1D1;
+}
+#services {
+    background-color: #D1D1D1;
+}
+#work {
+    background-color: #D1D1D1;
+}
+#about {
+    background-color: #D1D1D1;
+}
+#contact {
+    background-color: #D1D1D1;
+    
+}
+h1{
+    z-index: 99;
+
+    mix-blend-mode: difference ;
+    color: #D1D1D1;
+    text-align: center;
+    font-family: Helvetica;
+    font-style: normal;
+    text-transform: uppercase;
+
+}
+
+h2{
+    z-index: 99;
+
+    mix-blend-mode: difference ;
+    color: #D1D1D1;
+    text-align: center;
+    font-family: Helvetica;
+    font-style: normal;
+    text-transform: uppercase;
+   
+}
+
+h3{
+    z-index: 99;
+ 
+    mix-blend-mode: difference ;
+    color: #D1D1D1;
+    text-align: center;
+    font-family: Helvetica;
+    font-style: normal;
+    text-transform: uppercase;
+   
+}
+
+p {
+    z-index: 99;
+    
+    mix-blend-mode: difference ;
+    color: #D1D1D1;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 4.97813rem */
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+}
+
+.Frame1 {
+    transition: 1.2s;
+    &:hover {
+        background-color:white;
+    }
+    background-color: black;
+
+}
+.Frame2 {
+    transition: 1.2s;
+    &:hover {
+        background-color:white;
+    }
+    background-color: black;
+  
+}
+
+.Frame3 {
+    transition: 1.2s;
+    &:hover {
+        background-color:white;
+    }
+    background-color: black;
+
+}
+
+

@@ -1,0 +1,291 @@
+/*-------------------------------------------------services-----------------------------------------------*/
+@media only screen and (max-width: 1920px) {
+  .note {
+    top: 8%;
+    left: 20%;
+    position: absolute;
+    z-index: 99;
+    mix-blend-mode: difference;
+    color: #D1D1D1;
+    text-align: center;
+    font-family: Helvetica;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 4rem;
+    mix-blend-mode: difference;
+  }
+  .note2 {
+    top: 8%;
+    left: 20%;
+    position: absolute;
+    z-index: 99;
+    mix-blend-mode: difference;
+    color: #D1D1D1;
+    text-align: center;
+    font-family: Helvetica;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 4rem;
+    mix-blend-mode: difference;
+  }
+  .ServH {
+    font-size: 1.5rem;
+    mix-blend-mode: difference;
+    font-weight: 50;
+  }
+  .ServP {
+    font-size: 0.8rem;
+    mix-blend-mode: difference;
+  }
+  .outer {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+  }
+  .outer::-webkit-scrollbar {
+    display: none;
+  }
+  .outer .inner {
+    left: 0;
+    top: 25%;
+    position: relative;
+    width: 200%;
+    height: 50%;
+  }
+  .outer .inner div.box {
+    position: relative;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    transition: 1.2s;
+    margin: 0 1px 0 0;
+    background-color: black;
+    border-radius: 16px;
+    width: 15.94%;
+    height: 100%;
+    float: left;
+  }
+  .outer .inner div.box:hover {
+    background-color: white;
+  }
+  .border_1_1 {
+    transition: 1.2s;
+    margin: 0 1px 1px 0;
+    background-color: black;
+    border-radius: 16px;
+    width: 10%;
+    height: 100%;
+    float: left;
+  }
+  .border_1_1:hover {
+    background-color: white;
+  }
+  .border_1_2 {
+    transition: 1.2s;
+    margin: 0 1px 1px 0;
+    background-color: black;
+    border-radius: 16px;
+    width: 10%;
+    height: 100%;
+    float: left;
+  }
+  .border_1_2:hover {
+    background-color: white;
+  }
+  #services_1 {
+    width: 9.9%;
+    height: 24.9%;
+    left: 90%;
+    top: 0;
+    position: absolute;
+    transform: 0;
+    transform-origin: 0 0;
+    border-radius: 16px;
+  }
+  #services_2 {
+    width: 9.9%;
+    height: 24.9%;
+    left: 0;
+    top: 75.1%;
+    position: absolute;
+    transform: 0;
+    transform-origin: 0 0;
+    border-radius: 16px;
+  }
+  #services_3 {
+    width: 89.9%;
+    height: 24.9%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    transform: 0;
+    transform-origin: 0 0;
+    border-radius: 16px;
+  }
+  #services_4 {
+    width: 89.9%;
+    height: 24.9%;
+    left: 10%;
+    top: 75.1%;
+    position: absolute;
+    transform: 0;
+    transform-origin: 0 0;
+    border-radius: 16px;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  .note {
+    left: 15%;
+  }
+  .note2 {
+    left: 15%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .note {
+    left: 10%;
+  }
+  .note2 {
+    left: 10%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .note {
+    top: 45%;
+    left: -1%;
+    font-size: 3rem;
+    transform: rotate(-90deg);
+  }
+  .note2 {
+    top: 2%;
+    left: 10%;
+    font-size: 3rem;
+  }
+  .ServH {
+    font-size: 1.5rem;
+    mix-blend-mode: difference;
+  }
+  .ServP {
+    font-size: 0.7rem;
+    mix-blend-mode: difference;
+  }
+  .outer {
+    z-index: 1;
+    width: 100%;
+    overflow: scroll;
+  }
+  .outer::-webkit-scrollbar {
+    display: none;
+  }
+  .outer .inner {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+    top: 0;
+    left: 20%;
+    width: 60%;
+    height: 100%;
+  }
+  .outer .inner div.box {
+    margin: 0 1px 1px 0;
+    border-radius: 8px;
+    width: 100%;
+    height: 40%;
+    float: center;
+  }
+  .border_1_1 {
+    margin: 0 1px 1px 0;
+    border-radius: 8px;
+    width: 100%;
+    height: 15%;
+    float: left;
+  }
+  .border_1_2 {
+    margin: 0 1px 1px 0;
+    border-radius: 8px;
+    width: 100%;
+    height: 15%;
+    float: left;
+  }
+  #services_1 {
+    width: 19.8%;
+    height: 100%;
+    left: 80.2%;
+    top: 0;
+    position: absolute;
+    transform: 0;
+    transform-origin: 0 0;
+    border-radius: 8px;
+  }
+  #services_2 {
+    width: 19.8%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    transform: 0;
+    transform-origin: 0 0;
+    border-radius: 8px;
+  }
+  #services_3 {
+    width: 0;
+    height: 0;
+    left: 0;
+    top: 0;
+    position: absolute;
+    transform: 0;
+    transform-origin: 0 0;
+    border-radius: 0;
+  }
+  #services_4 {
+    width: 0;
+    height: 0;
+    left: 0;
+    top: 0;
+    position: absolute;
+    transform: 0;
+    transform-origin: 0 0;
+    border-radius: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .note {
+    top: 45%;
+    left: -5%;
+    font-size: 3rem;
+    transform: rotate(-90deg);
+  }
+  .note2 {
+    top: 2%;
+    left: 10%;
+    font-size: 3rem;
+  }
+}
+@media only screen and (max-width: 624px) {
+  .note {
+    top: 45%;
+    left: -5%;
+    font-size: 2rem;
+    transform: rotate(-90deg);
+  }
+  .note2 {
+    top: 2%;
+    left: 10%;
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .note {
+    top: 45%;
+    left: -8%;
+    font-size: 2rem;
+    transform: rotate(-90deg);
+  }
+  .note2 {
+    top: 2%;
+    left: 10%;
+    font-size: 2rem;
+  }
+}/*# sourceMappingURL=Services.css.map */

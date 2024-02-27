@@ -1,0 +1,1249 @@
+/*-------------------------------------------------main-----------------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background-clip: border-box;
+    scrollbar-width: thin;
+    
+}
+a{
+    text-decoration: none;
+}
+
+img {
+    transition: 1s;
+    &:hover{
+        opacity: 1;
+    }
+    opacity:.3;
+    top: 0;
+    left: 0;
+    position: relative;
+    width: 100%;
+  
+}
+
+
+section::-webkit-scrollbar{
+    display: none;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+
+body {
+    background-color: rgb(142, 142, 142);
+    
+}
+
+
+//section::-webkit-scrollbar{
+    //display: none;
+//}
+
+//div::-webkit-scrollbar-button{
+    //display: none0
+//}
+#home {
+    background-color: #D1D1D1;
+}
+#services {
+    background-color: #D1D1D1;
+}
+#work {
+    background-color: #D1D1D1;
+}
+#about {
+    background-color: #D1D1D1;
+}
+#contact {
+    background-color: #D1D1D1;
+    
+}
+h1{
+    z-index: 99;
+
+    mix-blend-mode: difference ;
+    color: #D1D1D1;
+    text-align: center;
+    font-family: Helvetica;
+    font-style: normal;
+    text-transform: uppercase;
+
+}
+
+h2{
+    z-index: 99;
+    mix-blend-mode: difference ;
+    color: #D1D1D1;
+    text-align: center;
+    font-family: Helvetica;
+    font-style: normal;
+    text-transform: uppercase;
+   
+}
+
+h3{
+    z-index: 99;
+    mix-blend-mode: difference ;
+    color: #D1D1D1;
+    text-align: center;
+    font-family: Helvetica;
+    font-style: normal;
+    text-transform: uppercase;
+   
+}
+
+p {
+    z-index: 99;
+    mix-blend-mode: difference ;
+    color: #D1D1D1;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 4.97813rem */
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+}
+
+.Frame1 {
+    transition: 1.2s;
+    &:hover {
+        background-color:white;
+    }
+    background-color: black;
+
+}
+.Frame2 {
+    transition: 1.2s;
+    &:hover {
+        background-color:white;
+    }
+    background-color: black;
+  
+}
+
+.Frame3 {
+    transition: 1.2s;
+    &:hover {
+        background-color:white;
+    }
+    background-color: black;
+
+}
+
+
+
+/*-------------------------------------------------home-----------------------------------------------*/
+
+
+@media only screen and (max-width: 1920px) {
+
+    section {
+        width: 1920px;
+        margin:  2px 0px;
+        height: 900px; 
+        position: relative; 
+        display: flex; 
+
+    }
+    
+    .Arrow a p {
+        left: 44%;
+        top: 85%;
+        max-width: 30%;
+        transform: rotate(0deg); 
+        position: absolute;
+        z-index: 99;
+        transform-origin: 0 0;  
+        mix-blend-mode: difference;
+        text-decoration: none;
+        word-wrap: break-word;
+        text-decoration-line: none ;
+    }
+
+    .homeTitele {
+        transition: 0.7s;
+        mix-blend-mode: difference;
+        //animation: moveright 1s ease-in-out forwards;
+        position: absolute;
+        top: 30%;
+        left: 23%;
+        color: #D1D1D1;
+        text-align: left;
+        font-family: Helvetica;
+        font-size: 6rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 88.5%; /* 4.97813rem */
+        letter-spacing: -0.28125rem;
+        text-transform: uppercase;
+        z-index: 1;
+    }
+    
+    .homeP {
+
+        position: absolute;
+        top: 65%;
+        left: 23%;
+        color: #D1D1D1;
+        text-align: left;
+        font-family: Helvetica;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 120%; /* 4.97813rem */
+        letter-spacing: 0.2rem;
+        text-transform: uppercase;
+        z-index: 1;
+      
+    }
+
+
+    #home_1 {
+        width: 415px; 
+        height: 668px; 
+        left: 0px; 
+        top: 900px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 16px
+    }
+
+    #home_2 {
+        width: 484px; 
+        height: 439px; 
+        left: 369px; 
+        top: 484px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 16px
+    }
+
+    #home_3 {
+        width: 438px; 
+        height: 486px; 
+        left: 809px; 
+        top: 645px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 16px
+    }
+
+    #home_4 {
+        width: 254px; 
+        height: 486px; 
+        left: 809px; 
+        top: 900px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 16px
+    }
+
+    #home_5 {
+        width: 206px; 
+        height: 1111px; 
+        left: 809px; 
+        top: 206px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 16px
+    }
+
+    #home_6 {
+        width: 484px; 
+        height: 368px; 
+        left: 0px; 
+        top: 484px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 16px
+    }
+
+    #home_7 {
+        width: 693px; 
+        height: 381px; 
+        left: 1539px; 
+        top: 900px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 16px
+    }
+
+    #home_8 {
+        width: 693px; 
+        height: 242px; 
+        left: 1296px; 
+        top: 900px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 16px
+    }
+
+    #home_9 {
+        width: 415px; 
+        height: 139px; 
+        left: 669px; 
+        top: 900px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 16px
+    }
+
+
+}
+
+@media only screen and (max-width: 1600px) {
+
+    section {
+        width: 1600px;
+        margin:  2px 0px;
+        height: 900px; 
+ 
+        position: relative; 
+        display: flex; 
+    }
+
+    .Arrow a p {
+        
+        left: 43%;
+        top: 85%;
+    
+        max-width: 30%;
+        transform: rotate(0deg); 
+        
+    }
+
+    .homeTitele {
+
+       
+        top: 30%;
+        left: 20%;
+
+        font-size: 5.5rem;
+        
+     
+    }
+    
+
+    .homeP {
+
+        top: 60%;
+        left: 20%;
+
+        font-size: 1rem;
+ 
+    }
+
+
+    #home_1 {
+        width: 415px; 
+        height: 508px; 
+        left: 0px; 
+        top: 900px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 16px
+    }
+
+    #home_2 {
+        width: 484px; 
+        height: 439px; 
+        left: 209px; 
+        top: 484px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 16px
+    }
+
+    #home_3 {
+        width: 438px; 
+        height: 486px; 
+        left: 649px; 
+        top: 645px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 16px
+    }
+
+    #home_4 {
+        width: 254px; 
+        height: 486px; 
+        left: 649px; 
+        top: 900px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 16px
+    }
+
+    #home_5 {
+        width: 206px; 
+        height: 951px; 
+        left: 649px; 
+        top: 206px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 16px
+    }
+
+    #home_6 {
+        width: 484px;
+        height: 208px; 
+        left: 0px; 
+        top: 484px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 16px
+    }
+
+    #home_7 {
+        width: 693px; 
+        height: 221px; 
+        left: 1379px; 
+        top: 900px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 16px
+    }
+
+    #home_8 {
+        width: 693px; 
+        height: 242px; 
+        left: 1136px; 
+        top: 900px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 16px
+    }
+
+    #home_9 {
+        width: 415px; 
+        height: 139px; 
+        left: 509px; 
+        top: 900px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 16px
+    }
+
+
+}
+
+@media only screen and (max-width: 1440px) {
+
+
+    section {
+        width: 1440px;
+        margin:  2px 0px;
+        height: 900px; 
+        
+        position: relative; 
+        display: flex; 
+    }
+
+    .Arrow a p {
+        left: 42%;
+        top: 85%;
+    
+        max-width: 30%;
+        transform: rotate(0deg); 
+    }
+
+    .homeTitele {
+
+       
+        top: 30%;
+        left: 15%;
+
+        font-size: 5.5rem;
+        
+     
+    }
+    
+
+    .homeP {
+
+        top: 60%;
+        left: 15%;
+
+        font-size: 1rem;
+ 
+    }
+
+
+    #home_1 {
+        width: 415px; 
+        height: 428px; 
+        left: 0px; 
+        top: 900px;
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 16px
+    }
+
+    #home_2 {
+        width: 484px;
+        height: 440px; 
+        left: 128px; 
+        top: 484px;
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 16px
+    }
+
+    #home_3 {
+        width: 438px; 
+        height: 486px; 
+        left: 569px; 
+        top: 645px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 16px
+    }
+
+    #home_4 {
+        width: 254px; 
+        height: 486px; 
+        left: 569px; 
+        top: 900px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 16px
+    }
+
+    #home_5 {
+        width: 206px; 
+        height: 871px; 
+        left: 569px; 
+        top: 206px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 16px
+    }
+
+    #home_6 {
+        width: 484px; 
+        height: 127px; 
+        left: 0px; 
+        top: 484px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 16px
+    }
+
+    #home_7 {
+        width: 693px; 
+        height: 140px; 
+        left: 1300px; 
+        top: 900px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 16px
+    }
+
+    #home_8 {
+        width: 693px; 
+        height: 243px; 
+        left: 1056px; 
+        top: 900px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 16px
+    }
+
+    #home_9 {
+        width: 415px; 
+        height: 139px; 
+        left: 429px; 
+        top: 900px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 16px
+    }
+
+
+}
+
+@media only screen and (max-width: 1200px) {
+    section {
+        width: 1200px;
+        margin:  2px 0px;
+        height: 900px; 
+    
+        position: relative; 
+        display: flex; 
+    }
+
+    .Arrow a p {
+ 
+        left: 41%;
+        top: 85%;
+    
+        max-width: 30%;
+        transform: rotate(0deg); 
+    }
+
+    .homeTitele {
+
+       
+        top: 28%;
+        left: 15%;
+
+        font-size: 5rem;
+        
+     
+    }
+    
+
+    .homeP {
+
+        top: 58%;
+        left: 15%;
+
+        font-size: 1rem;
+ 
+    }
+
+    #home_1 {
+        width: 415px; 
+        height: 356px; 
+        left: 0px; 
+        top: 900px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 16px
+    }
+
+    #home_2 {
+        width: 484px; 
+        height: 367px; 
+        left: 106px; 
+        top: 484px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 16px
+    }
+
+    #home_3 {
+        width: 440px; 
+        height: 406px; 
+        left: 474px; 
+        top: 646px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 16px
+    }
+
+    #home_4 {
+        width: 253px; 
+        height: 406px; 
+        left: 474px; 
+        top: 900px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 16px
+    }
+
+    #home_5 {
+        width: 205px; 
+        height: 726px; 
+        left: 474px; 
+        top: 205px;
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 16px
+    }
+
+    #home_6 {
+        width: 484px; 
+        height: 105px; 
+        left: 0px; 
+        top: 484px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 16px
+    }
+
+    #home_7 {
+        width: 694px; 
+        height: 116px; 
+        left: 1084px; 
+        top: 900px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 16px
+    }
+
+    #home_8 {
+        width: 694px; 
+        height: 202px; 
+        left: 881px; 
+        top: 900px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 16px
+    }
+
+    #home_9 {
+        width: 415px; 
+        height: 116px; 
+        left: 357px; 
+        top: 900px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 16px
+    }
+
+
+}
+
+@media only screen and (max-width: 1024px) {
+    section {
+        width: 1024px;
+        margin:  2px 0px;
+        height: 900px; 
+       
+        position: relative; 
+        display: flex; 
+    }
+
+    .Arrow a p {
+        
+        left: 40%;
+        top: 85%;
+    
+        max-width: 30%;
+        transform: rotate(0deg); 
+        
+    }
+
+    .homeTitele {
+
+       
+        top: 30%;
+        left: 12%;
+
+        font-size: 5rem;
+        
+     
+    }
+    
+
+    .homeP {
+
+        top: 60%;
+        left: 12%;
+
+        font-size: 1rem;
+ 
+    }
+
+
+    
+    #home_1 {
+        width: 150px; 
+        height: 520px; 
+        left: 0px; 
+        top: 900px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 8px
+    }
+
+    #home_2 {
+        width: 323px; 
+        height: 389px; 
+        left: 0px; 
+        top: 323px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 8px
+    }
+
+    #home_3 {
+        width: 71px; 
+        height: 389px; 
+        left: 0px; 
+        top: 395px; 
+        position: absolute; 
+        transform: rotate(-90deg);
+        transform-origin: 0 0;
+        border-radius: 8px
+    }
+
+    #home_4 {
+        width: 316px; 
+        height: 635px; 
+        left: 390px; 
+        top: 395px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0; 
+        border-radius: 8px
+    }
+
+    #home_5 {
+        width: 504px; 
+        height: 391px; 
+        left: 521px; 
+        top: 900px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 8px
+    }
+
+    #home_6 {
+        width: 78px; 
+        height: 635px; 
+        left: 390px; 
+        top: 78px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 8px
+    }
+
+    #home_7 {
+        width: 353px;
+        height: 520px; 
+        left: 0px; 
+        top: 749px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 8px
+    }
+
+    #home_8 {
+        width: 385px; 
+        height: 112px; 
+        left: 913px; 
+        top: 900px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 8px
+    }
+
+    #home_9 {
+        width: 118px; 
+        height: 112px; 
+        left: 913px; 
+        top: 514px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 8px
+    }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+    section {
+        width: 768px;
+        margin:  2px 0px;
+        height: 900px; 
+
+        position: relative; 
+        display: flex; 
+    }
+
+    .Arrow a p {
+        
+        left: 35%;
+        top: 85%;
+    
+        max-width: 30%;
+       
+        
+    }
+   
+    .homeTitele {
+
+       
+        top: 30%;
+        left: 12%;
+
+        font-size: 4.5rem;
+        
+     
+    }
+    
+
+    .homeP {
+
+        top: 55%;
+        left: 12%;
+
+        font-size: 1rem;
+ 
+    }
+
+  
+    #home_1 {
+        width: 150px; 
+        height: 390px; 
+        left: 0px; 
+        top: 900px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 8px
+    }
+
+    #home_2 {
+        width: 323px; 
+        height: 291px; 
+        left: 0px; 
+        top: 323px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 8px
+    }
+
+    #home_3 {
+
+        width: 71px; 
+        height: 291px; 
+        left: 0px; 
+        top: 395px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0; 
+        border-radius: 8px
+    }
+
+    #home_4 {
+        width: 316px; 
+        height: 476px; 
+        left: 292px; 
+        top: 395px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0; 
+        border-radius: 8px
+    }
+
+    #home_5 {
+        width: 504px; 
+        height: 293px; 
+        left: 391px;
+        top: 900px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0; 
+        border-radius: 8px
+    }
+    #home_6 {
+        width: 78px;
+        height: 476px; 
+        left: 292px; 
+        top: 78px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 8px
+    }
+
+    #home_7 {
+        width: 353px; 
+        height: 390px; 
+        left: 0px; 
+        top: 749px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 8px
+    }
+
+    #home_8 {
+        width: 385px; 
+        height: 83px; 
+        left: 685px; 
+        top: 900px;
+         position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 8px
+    }
+
+    #home_9 {
+        width: 118px; 
+        height: 83px; 
+        left: 685px; 
+        top: 514px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0; 
+        border-radius: 8px
+    }
+
+
+}
+
+@media only screen and (max-width: 624px) {
+    section {
+        width: 624px;
+        margin:  2px 0px;
+        height: 900px; 
+   
+        position: relative; 
+        display: flex; 
+    }
+   
+    .Arrow a p {
+        
+        left: 35%;
+        top: 85%;
+    
+        max-width: 40%;
+    }
+    .homeTitele {
+
+       
+        top: 30%;
+        left: 10%;
+
+        font-size: 4.2rem;
+        
+     
+    }
+    
+
+    .homeP {
+
+        top: 55%;
+        left: 10%;
+
+        font-size: .9rem;
+ 
+    }
+    #home_1 {
+        
+        width: 150px; height: 317px; left: 0px; top: 900px; position: absolute; transform: rotate(-90deg); transform-origin: 0 0; border-radius: 8px
+    }
+
+    #home_2 {
+        width: 323px; height: 236px; left: 0px; top: 323px; position: absolute; transform: rotate(-90deg); transform-origin: 0 0;  border-radius: 8px
+    }
+
+    #home_3 {
+        width: 71px; height: 236px; left: 0px; top: 395px; position: absolute; transform: rotate(-90deg); transform-origin: 0 0; border-radius: 8px
+    }
+
+    #home_4 {
+        width: 316px; height: 387px; left: 237px; top: 395px; position: absolute; transform: rotate(-90deg); transform-origin: 0 0; border-radius: 8px
+    }
+
+    #home_5 {
+        width: 504px; height: 238px; left: 318px; top: 900px; position: absolute; transform: rotate(-90deg); transform-origin: 0 0; border-radius: 8px
+    }
+
+    #home_6 {
+        width: 78px; height: 387px; left: 237px; top: 78px; position: absolute; transform: rotate(-90deg); transform-origin: 0 0; border-radius: 8px
+    }
+
+    #home_7 {
+        width: 353px; height: 317px; left: 0px; top: 749px; position: absolute; transform: rotate(-90deg); transform-origin: 0 0; border-radius: 8px
+    }
+
+    #home_8 {
+        width: 385px; height: 67px; left: 557px; top: 900px; position: absolute; transform: rotate(-90deg); transform-origin: 0 0; border-radius: 8px
+    }
+
+    #home_9 {
+        width: 118px; height: 67px; left: 557px; top: 514px; position: absolute; transform: rotate(-90deg); transform-origin: 0 0; border-radius: 8px
+    }
+
+
+}
+
+@media only screen and (max-width: 480px) {
+    section {
+        width: 480px;
+        margin:  2px 0px;
+        height: 900px; 
+  
+        position: relative; 
+        display: flex; 
+    }
+    
+
+    .Arrow a p {
+        
+        left: 30%;
+        top: 85%;
+    
+        max-width: 50%;
+        
+    }
+
+
+    .homeTitele {
+
+       
+        top:32%;
+        left: 10%;
+
+        font-size: 3.3rem;
+        
+     
+    }
+    
+
+    .homeP {
+
+        top: 50%;
+        left: 10%;
+
+        font-size: .6rem;
+ 
+    }
+
+   
+    #home_1 {
+        
+        width: 216px; 
+        height: 188px; 
+        left: 0px; 
+        top: 901px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0; 
+        border-radius: 8px
+    }
+
+    #home_2 {
+        width: 280px; 
+        height: 188px; 
+        left: 0px; 
+        top: 280px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0; 
+        border-radius: 8px
+    }
+
+    #home_3 {
+        width: 114px; 
+        height: 188px; 
+        left: 0px; 
+        top: 395px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0; 
+        border-radius: 8px
+    }
+
+    #home_4 {
+        width: 325px; 
+        height: 291px; 
+        left: 189px; 
+        top: 395px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0; 
+        border-radius: 8px
+    }
+
+    #home_5 {
+        width: 505px; 
+        height: 163px; 
+        left: 189px; 
+        top: 901px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0; 
+        border-radius: 8px
+    }
+
+    #home_6 {
+        width: 69px; 
+        height: 291px; 
+        left: 189px; 
+        top: 69px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0; 
+        border-radius: 8px
+    }
+
+    #home_7 {
+        width: 288px; 
+        height: 188px; 
+        left: 0px; 
+        top: 684px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0;
+        border-radius: 8px
+    }
+
+    #home_8 {
+        width: 385px; 
+        height: 127px; 
+        left: 353px; 
+        top: 901px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0; 
+        border-radius: 8px
+    }
+
+    #home_9 {
+        width: 119px; 
+        height: 127px; 
+        left: 353px; 
+        top: 515px; 
+        position: absolute; 
+        transform: rotate(-90deg); 
+        transform-origin: 0 0; 
+        border-radius: 8px
+    }
+
+}

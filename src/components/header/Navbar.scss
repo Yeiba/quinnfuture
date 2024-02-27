@@ -1,0 +1,447 @@
+
+header {
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: left;
+    flex-shrink: 0;
+    z-index: 999;
+    mix-blend-mode: difference;
+}
+
+.Logo {
+    left: 5%;
+    top: 25px;
+    position: relative;
+    mix-blend-mode: difference;
+}
+
+.menu {
+    display: none;
+}
+
+ul {
+    left: 60px;
+    display: flex;
+    position: relative;
+    list-style-type: none;
+    a {
+        transition: .5s;
+        text-decoration: none;
+        text-align: center;
+        left: -80px; 
+        top: 25px; 
+        margin: 30px;
+        position: relative; 
+        color: rgb(156, 156, 156);
+        font-size: 15px; 
+        font-family: Poppins; 
+        text-transform: uppercase; 
+        word-wrap: break-word;
+        
+    }
+
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    font-size: 18px;
+    color: #D1D1D1;
+    text-decoration-line: underline ;
+} 
+
+@media only screen and (max-width: 1024px) {
+
+    header {
+       
+        position: fixed;
+        display: flex;
+        top: .5rem;
+        left: 0rem;
+        width: 100%;
+        padding: 0px 25px;
+
+        justify-content: space-evenly;
+        align-items: center;
+        flex-shrink: 0;
+        z-index: 100;
+        mix-blend-mode: difference;
+ 
+    }
+
+    .Logo {
+        left: 15px;
+        top: 15px;
+        position: relative;
+
+
+    }
+    .menu.active {
+        opacity: 50%;
+    }
+    .menu {
+        display: flex;
+        transition: 0.8s;
+        opacity: 100%;
+        position: fixed;
+        right: 45px;
+        top: 25px;
+        z-index: 999;
+        text-transform: uppercase;
+    }
+    nav {
+    
+        justify-content: space-between;
+        position: fixed;
+        right: 15px;
+        top: 60px;
+        height: 40px;
+ 
+        z-index: 999;
+        text-transform: uppercase;
+
+
+        ul {
+            left: 70px;
+            visibility: hidden;
+            opacity: 0;
+            transition: .7s;
+            display: block;
+            list-style-type: none;
+        
+            a {
+             
+                margin: 0;
+                transition: .5s;
+                border-radius: .4em;
+                display: block;
+                text-decoration: none;
+                color: white;
+                background: #1f1f1f;
+                padding: .8em .6em;
+                font-family: Helvetica;
+                font-style: normal;
+               
+                
+                
+            }
+
+        }
+
+    }
+
+    ul.active {
+        opacity: 1;
+        visibility: visible;
+        
+        
+    }
+
+    nav ul li a:hover,
+    nav ul li a.active {
+        color: white;
+        background:rgb(59, 59, 59);
+        font-size: 12px;
+        text-decoration-line: none ;
+
+    } 
+
+    
+
+}
+
+@media only screen and (max-width: 768px) {
+  
+    header {
+  
+        position: fixed;
+        display: flex;
+        top: .5rem;
+        left: 0rem;
+        width: 100%;
+        padding: 0px 25px;
+
+        justify-content: space-evenly;
+        align-items: center;
+        flex-shrink: 0;
+        z-index: 100;
+        mix-blend-mode: difference;
+   
+
+    }
+
+    .Logo {
+        
+        left: 50px;
+        top: 15px;
+        position: relative;
+        position: relative;
+        
+    }
+
+    .menu.active {
+        opacity: 50%;
+    }
+    
+    .menu {
+        display: flex;
+        transition: 0.8s;
+        opacity: 100%;
+        position: fixed;
+        right: 45px;
+        top: 25px;
+        z-index: 999;
+        text-transform: uppercase;
+    }
+
+    nav {
+        
+        justify-content: space-between;
+        position: fixed;
+        right: 35px;
+        top: 60px;
+        height: 40px;
+        z-index: 999;
+        text-transform: uppercase;
+
+        ul {
+            left: 85px;
+            
+            opacity: 0;
+            transition: .7s;
+            visibility: hidden;
+            display: block;
+            list-style-type: none;
+          
+            
+
+            a {
+                margin: 0;
+                transition: .5s;
+                border-radius: .3em;
+                display: block;
+                text-decoration: none;
+       
+                padding: .8em .6em;
+                font-family: Helvetica;
+                font-style: normal;
+                
+                
+            }
+
+        }
+
+    }
+
+    ul.active {
+        opacity: 1;
+        visibility: visible;
+        
+    }
+
+    nav ul li a:hover,
+    nav ul li a.active {
+        color: white;
+    
+        font-size: 10px;
+        
+    } 
+
+}
+
+@media only screen and (max-width: 624px) {
+   
+    header {
+
+        position: fixed;
+        display: flex;
+        top: .5rem;
+        left: 0rem;
+        width: 100%;
+        padding: 0px 25px;
+
+        justify-content: space-evenly;
+        align-items: center;
+        flex-shrink: 0;
+        z-index: 100;
+        mix-blend-mode: difference;
+        
+        
+
+    }
+
+
+    .Logo {
+      
+        left: 65px;
+        top: 15px;
+        position: relative;
+  
+    
+    }
+    .menu.active {
+        opacity: 50%;
+    }
+
+    .menu {
+        display: flex;
+        transition: 0.8s;
+        opacity: 100%;
+        position: fixed;
+        right: 30px;
+        top: 25px;
+        z-index: 999;
+        text-transform: uppercase;
+    }
+
+    nav {
+        
+        justify-content: space-between;
+        position: fixed;
+        right: 20px;
+        top: 60px;
+        height: 40px;
+
+        z-index: 999;
+        text-transform: uppercase;
+        
+
+        ul {
+            left: 80px;
+            visibility: hidden;
+            opacity: 0;
+            transition: .7s;
+            display: block;
+            list-style-type: none;
+       
+
+            a {
+                margin: 0;
+                transition: .5s;
+                border-radius: .3em;
+                display: block;
+                text-decoration: none;
+      
+                padding: .8em .4em;
+                font-family: Helvetica;
+                font-style: normal;
+                
+                
+                word-wrap: break-word;
+            }
+
+        }
+
+    }
+
+    ul.active {
+        opacity: 1;
+        visibility: visible;
+        
+    }
+    
+    nav ul li a:hover,
+    nav ul li a.active {
+        color: white;
+
+        font-size: 10px;
+
+        
+    } 
+
+}
+
+@media only screen and (max-width: 480px) {
+   
+    header {
+        position: fixed;
+        display: flex;
+        top: .5rem;
+        left: 0rem;
+        width: 100%;
+        padding: 0px 25px;
+
+        justify-content: space-between;
+        align-items: center;
+        flex-shrink: 0;
+        z-index: 100;
+        mix-blend-mode: difference;
+    }
+
+
+    .Logo {
+        left: 0px;
+        top: 15px;
+        position: relative;
+    
+    }
+
+    .menu.active {
+        opacity: 50%;
+    }
+
+    .menu {
+        display: flex;
+        transition: 0.8s;
+        opacity: 100%;
+        position: fixed;
+        right: 30px;
+        top: 25px;
+        z-index: 999;
+        text-transform: uppercase;
+    }
+
+    nav {
+        
+        justify-content: space-between;
+        position: fixed;
+        right: 20px;
+        top: 50px;
+        height: 40px;
+        z-index: 999;
+        text-transform: uppercase;
+
+        ul {
+            left: 80px;
+            visibility: hidden;
+            opacity: 0;
+            transition: .7s;
+ 
+            list-style-type: none;
+          
+            a {
+                margin: 0;
+                transition: .5s;
+                border-radius: .3em;
+                display: block;
+                text-decoration: none;
+        
+                padding: .8em .4em;
+                font-family: Helvetica;
+                font-style: normal;
+                
+            }
+
+        }
+
+    }
+
+    ul.active {
+        opacity: 1;
+        visibility: visible;
+        
+    }
+
+    nav ul li a:hover,
+    nav ul li a.active {
+        color: white;
+
+        font-size: 10px;
+
+        
+    } 
+
+}
