@@ -49,15 +49,12 @@
   .outer .inner div.boxproject {
     position: relative;
     place-items: center;
-    overflow: hidden;
     transition: 1.2s;
     margin: 0 1px 0 0;
     background-color: rgb(0, 0, 0);
     border-radius: 16px;
     width: 600px;
     height: 100%;
-    float: left;
-    flex: 0 0 auto;
   }
   .outer .inner div.boxproject:hover {
     background-color: rgb(255, 255, 255);
@@ -69,7 +66,6 @@
     border-radius: 16px;
     width: 10%;
     height: 100%;
-    float: left;
     flex: 0 0 auto;
   }
   .border_2_1:hover {
@@ -82,7 +78,6 @@
     border-radius: 16px;
     width: 10%;
     height: 100%;
-    float: left;
     flex: 0 0 auto;
   }
   .border_2_2:hover {
@@ -186,8 +181,6 @@
     border-radius: 8px;
     width: 100%;
     height: 40%;
-    float: left;
-    flex: 0 0 auto;
   }
   .outer .inner div.boxproject:hover {
     background-color: rgb(255, 255, 255);
@@ -199,8 +192,6 @@
     border-radius: 8px;
     width: 100%;
     height: 15%;
-    float: left;
-    flex: 0 0 auto;
   }
   .border_2_1:hover {
     background-color: rgb(255, 255, 255);
