@@ -33,9 +33,7 @@
         
     
     }
-    .outer::-webkit-scrollbar{
-        display: none;
-    }
+    
     .cont {
         position: relative;
         width: 100%; 
@@ -54,8 +52,14 @@
         scrollbar-width: none;
 
         
+        scrollbar-width: none;
     
     }
+    .inner::-webkit-scrollbar {
+        display: none;
+    }
+   
+
     
     .outer .inner div.boxproject {
         position: relative; 
@@ -208,9 +212,8 @@
         left: 20%;
         top: 0;
     }
-    .outer::-webkit-scrollbar{
-        display: none;
-    }
+   
+    
     .cont {
         position: relative;
         width: 100%; 
@@ -229,9 +232,10 @@
         display: block;
         // flex-direction: column;
         scrollbar-width: none;
-
-        
     
+    }
+    .inner::-webkit-scrollbar {
+        display: none;
     }
     
     .outer .inner div.boxproject {

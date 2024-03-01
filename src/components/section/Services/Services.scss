@@ -52,9 +52,7 @@
         left: 0;
         top: 25%;
     }
-    .outer::-webkit-scrollbar{
-        display: none;
-    }
+   
     .cont {
         position: relative;
         width: 100%; 
@@ -76,6 +74,10 @@
         
     
     }
+    .inner::-webkit-scrollbar {
+        display: none;
+    }
+ 
     
     .outer .inner div.boxaservice {
         position: relative; 
@@ -251,9 +253,7 @@
         left: 20%;
         top: 0;
     }
-    .outer::-webkit-scrollbar{
-        display: none;
-    }
+    
     .cont {
         position: relative;
         width: 100%; 
@@ -276,6 +276,10 @@
         
     
     }
+    .inner::-webkit-scrollbar {
+        display: none;
+    }
+
     
     .outer .inner div.boxaservice {
         position: relative; 

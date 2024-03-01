@@ -681,11 +681,15 @@
     height: 100%;
   }
   .outerAbout .innerAbout {
+    scrollbar-width: none;
     overflow-y: auto;
     overflow-x: hidden;
     width: 100%;
     height: 100%;
     background-color: #D1D1D1;
+  }
+  .innerAbout::-webkit-scrollbar {
+    display: none;
   }
   .bordertop {
     transition: 1.2s;
@@ -831,6 +835,10 @@
     width: 100%;
     height: 100%;
     background-color: #D1D1D1;
+    scrollbar-width: none;
+  }
+  .innerAbout::-webkit-scrollbar {
+    display: none;
   }
   .aboutcont {
     position: relative;
@@ -987,6 +995,10 @@
     width: 100%;
     height: 100%;
     background-color: #D1D1D1;
+    scrollbar-width: none;
+  }
+  .innerAbout::-webkit-scrollbar {
+    display: none;
   }
   .bordertop {
     transition: 1.2s;
@@ -1128,9 +1140,6 @@
     width: 100%;
     height: 100%;
   }
-  .outerAbout::-webkit-scrollbar {
-    display: none;
-  }
   .outerAbout .innerAbout {
     display: flex;
     overflow-y: hidden;
@@ -1138,6 +1147,10 @@
     width: 100%;
     height: 100%;
     background-color: #D1D1D1;
+    scrollbar-width: none;
+  }
+  .innerAbout::-webkit-scrollbar {
+    display: none;
   }
   .bordertop {
     transition: 1.2s;
@@ -1242,9 +1255,6 @@
     height: 100%;
     white-space: nowrap;
   }
-  .outerAbout::-webkit-scrollbar {
-    display: none;
-  }
   .outerAbout .innerAbout {
     display: flex;
     overflow-y: hidden;
@@ -1252,6 +1262,10 @@
     width: 100%;
     height: 100%;
     background-color: #D1D1D1;
+    scrollbar-width: none;
+  }
+  .innerAbout::-webkit-scrollbar {
+    display: none;
   }
   .bordertop {
     transition: 1.2s;
