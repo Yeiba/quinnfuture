@@ -22,7 +22,9 @@ img {
   
 }
 
-
+.App {
+    background-color: #D1D1D1;
+}
 section::-webkit-scrollbar{
     display: none;
 }
@@ -31,13 +33,9 @@ body::-webkit-scrollbar {
   }
 html {
     scrollbar-width: none;
+    
   }
 
-
-body {
-    background-color: #D1D1D1;
-    
-}
 
 
 //section::-webkit-scrollbar{
