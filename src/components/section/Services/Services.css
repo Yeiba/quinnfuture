@@ -56,6 +56,7 @@
     top: 0;
     width: 100%;
     height: 100%;
+    overflow-y: hidden;
     overflow-x: auto;
     display: flex;
     scrollbar-width: none;
@@ -213,6 +214,7 @@
     width: 100%;
     height: 100%;
     overflow-y: auto;
+    overflow-x: hidden;
     display: block;
     scrollbar-width: none;
   }
