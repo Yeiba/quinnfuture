@@ -9,7 +9,7 @@
         left: 20%;
         position: absolute;
 
-        z-index: 99;
+        z-index: 1;
 
         mix-blend-mode: difference ;
         color: #D1D1D1;
@@ -21,23 +21,7 @@
         mix-blend-mode: difference;
       
     }
-    .note2 {
-        top: 8%;
-        left: 20%;
-        position: absolute;
-
-        z-index: 99;
-
-        mix-blend-mode: difference ;
-        color: #D1D1D1;
-        text-align: center;
-        font-family: Helvetica;
-        font-style: normal;
-        text-transform: uppercase;
-        font-size: 4rem;
-        mix-blend-mode: difference;
-    
-    }
+   
     .ServH {
         position: absolute;
         left: 0;
@@ -64,9 +48,9 @@
         width: 100%;
         height: 50%;
         position: absolute;
+        transform-origin: 0 0; 
         left: 0;
         top: 25%;
-        margin: 0;
     }
     .outer::-webkit-scrollbar{
         display: none;
@@ -75,7 +59,7 @@
         position: relative;
         width: 100%; 
         height: 100%; 
-        margin: 0;
+   
 
        
     }
@@ -88,15 +72,15 @@
         overflow-x: auto;
         display: flex;
         scrollbar-width: none;
-        margin: 0;
+        
     
     }
     
-    .outer .inner div.boxaservices {
+    .outer .inner div.boxaservice {
         position: relative; 
 
         place-items: center;
-   
+     
       
         transition: 1.2s;
         &:hover {
@@ -262,6 +246,7 @@
         width: 60%;
         height: 100%;
         position: absolute;
+        transform-origin: 0 0; 
         left: 20%;
         top: 0;
     }
@@ -290,11 +275,11 @@
     
     }
     
-    .outer .inner div.boxaservices {
+    .outer .inner div.boxaservice {
         position: relative; 
 
         place-items: center;
-    
+        overflow: hidden;
       
         transition: 1.2s;
         &:hover {
@@ -305,8 +290,7 @@
         border-radius: 8px;
         width: 100%;
         height: 40%;
-        float: left;
-        flex: 0 0 auto;
+        
     }
     
 
@@ -334,7 +318,8 @@
         border-radius: 8px;
         width: 100%;
         height: 15%;
-        
+        float: left;
+        flex: 0 0 auto;
     }
 
 

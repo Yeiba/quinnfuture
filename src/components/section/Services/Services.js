@@ -19,7 +19,7 @@ export const Services = () => {
                             <div class="border_1_1" >
 
                             </div>
-                            <div class="boxaservices">
+                            <div class="boxaservice">
                                 <h1 data-aos="fade-right" class="ServH">BRANDING</h1>
                                 <p data-aos="fade-up" class="ServP">#BRAND_STRATEGY<br />
                                     #LOGO_DESIGN<br />
@@ -27,12 +27,9 @@ export const Services = () => {
                                     #BRAND_VISUAL_IDENTETY<br />
                                     #SOCIAL_MEDIA_ADS_DESIGN<br />
                                     #EVENTS_ORGANIZATION<br />
-
-
-
                                 </p>
                             </div>
-                            <div class="boxaservices">
+                            <div class="boxaservice">
                                 <h1 data-aos="fade-right" class="ServH">WEB DEVELOPMENT</h1>
                                 <p data-aos="fade-up" class="ServP">#UI/UX_DESIGN<br />
                                     #WEB_APPLICATION <br />
@@ -42,7 +39,7 @@ export const Services = () => {
 
                                 </p>
                             </div>
-                            <div class="boxaservices">
+                            <div class="boxaservice">
                                 <h1 data-aos="fade-right" class="ServH">FILMMAKING</h1>
                                 <p data-aos="fade-up" class="ServP">#ADVERTISING_VIDEOS<br />
                                     #MUSIC_VEDIOS <br />
@@ -52,7 +49,7 @@ export const Services = () => {
                                     #real_estate<br />
                                 </p>
                             </div>
-                            <div class="boxaservices">
+                            <div class="boxaservice">
                                 <h1 data-aos="fade-right" class="ServH">3D DESIGN</h1>
                                 <p data-aos="fade-up" class="ServP">#3D_PRODUCTS <br />
                                     #3D_MODELING<br />
@@ -62,7 +59,7 @@ export const Services = () => {
 
                                 </p>
                             </div>
-                            <div class="boxaservices">
+                            <div class="boxaservice">
                                 <h1 data-aos="fade-right" class="ServH">MUSIC PRODUCING</h1>
                                 <p data-aos="fade-up" class="ServP">#RAP_MUSIC <br />
                                     #POP_MUSIC <br />
