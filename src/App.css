@@ -19,9 +19,6 @@ img:hover {
   opacity: 1;
 }
 
-.App {
-  background-color: #D1D1D1;
-}
 
 section::-webkit-scrollbar {
   display: none;
