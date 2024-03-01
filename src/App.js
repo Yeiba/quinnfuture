@@ -38,7 +38,7 @@ import 'aos/dist/aos.css';
 
 // …or push an existing repository from the command line
 
-// git remote add origin https://github.com/Yeiba/quinnbuild.git
+// git remote add origin https://github.com/Yeiba/quinnfuture.git
 // git branch -M main
 // git push -u origin main
 

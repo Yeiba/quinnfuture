@@ -39,82 +39,104 @@
     
     }
     .ServH {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top:0;
+        margin: 50px;
         font-size: 1.5rem;
         mix-blend-mode: difference ;
         font-weight: 50;
     }
     .ServP {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: 50px;
         font-size: .8rem;
         mix-blend-mode: difference ;
+        text-align: center ;
         
     }
     .outer {
-        
         z-index: 1;
         width: 100%;
-        height: 100%;
-        overflow:scroll;
-
-        
+        height: 50%;
+        position: absolute;
+        transform-origin: 0 0; 
+        left: 0;
+        top: 25%;
     }
     .outer::-webkit-scrollbar{
         display: none;
     }
-
-    .outer .inner {
-     
-        
-        left: 0;
-        top: 25%;
+    .cont {
         position: relative;
-        width: 200%;
-        height: 50%;
+        width: 100%; 
+        height: 100%; 
+
+       
+    }
+    
+    .outer .inner {
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow-x: auto;
+        display: flex;
+        scrollbar-width: none;
     
     }
     
-    .outer .inner div.box {
+    .outer .inner div.boxaservices {
         position: relative; 
-        display: grid;
+
         place-items: center;
         overflow: hidden;
-
+      
         transition: 1.2s;
         &:hover {
-            background-color: white;
+            background-color: rgb(255, 255, 255);
         }
         margin: 0 1px 0 0;
-        background-color: black;
+        background-color: rgb(0, 0, 0);
         border-radius: 16px;
-        width: 15.94%;
+        width: 600px;
         height: 100%;
         float: left;
+        flex: 0 0 auto;
     }
     
+
 
 
     .border_1_1 {
-        transition:1.2s;
+        transition: 1.2s;
         &:hover {
-            background-color: white;
+            background-color: rgb(255, 255, 255);
         }
-        margin: 0 1px 1px 0;
-        background-color: black;
+        margin: 0 1px 0 0;
+        background-color: rgb(0, 0, 0);
         border-radius: 16px;
         width: 10%;
         height: 100%;
         float: left;
+        flex: 0 0 auto;
     }
     .border_1_2 {
         transition: 1.2s;
         &:hover {
-            background-color: white;
+            background-color: rgb(255, 255, 255);
         }
-        margin: 0 1px 1px 0;
-        background-color: black;
+        margin: 0 1px 0 0;
+        background-color: rgb(0, 0, 0);
         border-radius: 16px;
         width: 10%;
         height: 100%;
         float: left;
+        flex: 0 0 auto;
     }
 
     #services_1 {
@@ -213,66 +235,109 @@
     }
 
     .ServH {
-        font-size: 1.5rem;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top:0;
+        margin: 30px;
+        font-size: 1.2rem;
         mix-blend-mode: difference ;
+        font-weight: 50;
     }
     .ServP {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: 30px;
         font-size: .7rem;
         mix-blend-mode: difference ;
+        text-align: center ;
+        
     }
     .outer {
         z-index: 1;
-        width: 100%;
-        overflow: scroll;
+        width: 60%;
+        height: 100%;
+        position: absolute;
+        transform-origin: 0 0; 
+        left: 20%;
+        top: 0;
     }
     .outer::-webkit-scrollbar{
         display: none;
     }
-
-    .outer .inner {
-       
-        
+    .cont {
         position: relative;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: auto 100%;
-        top: 0;
-        left: 20%;
-        width: 60%;
-        height: 100%;
-  
+        width: 100%; 
+        height: 100%; 
         
+       
     }
     
-    .outer .inner div.box {
+    .outer .inner {
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow-y: auto;
+        display: block;
+        // flex-direction: column;
+        scrollbar-width: none;
 
-
-        margin: 0 1px 1px 0;
+        
     
+    }
+    
+    .outer .inner div.boxaservices {
+        position: relative; 
+
+        place-items: center;
+        overflow: hidden;
+      
+        transition: 1.2s;
+        &:hover {
+            background-color: rgb(255, 255, 255);
+        }
+        margin: 0  0 1px 0;
+        background-color: rgb(0, 0, 0);
         border-radius: 8px;
         width: 100%;
         height: 40%;
-        float: center;
+        float: left;
+        flex: 0 0 auto;
     }
+    
+
+
 
     .border_1_1 {
-
-        margin: 0 1px 1px 0;
-
+        transition: 1.2s;
+        &:hover {
+            background-color: rgb(255, 255, 255);
+        }
+        margin: 0 0 1px 0;
+        background-color: rgb(0, 0, 0);
         border-radius: 8px;
         width: 100%;
         height: 15%;
         float: left;
+        flex: 0 0 auto;
     }
     .border_1_2 {
-
-        margin: 0 1px 1px 0;
-
+        transition: 1.2s;
+        &:hover {
+            background-color: rgb(255, 255, 255);
+        }
+        margin: 0  0 1px 0;
+        background-color: rgb(0, 0, 0);
         border-radius: 8px;
         width: 100%;
         height: 15%;
         float: left;
+        flex: 0 0 auto;
     }
+
 
     #services_1 {
         width: 19.8%; 
