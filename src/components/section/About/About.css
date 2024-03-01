@@ -108,7 +108,6 @@
     left: 971px;
     top: 0px;
     position: absolute;
-    transform-origin: 0 0;
   }
   .aboutcont {
     position: relative;
@@ -353,7 +352,6 @@
     left: 811px;
     top: 0px;
     position: absolute;
-    transform-origin: 0 0;
   }
   .aboutcont {
     position: relative;
@@ -501,7 +499,6 @@
     left: 731px;
     top: 0px;
     position: absolute;
-    transform-origin: 0 0;
     overflow: hidden;
   }
   .aboutcont {
@@ -674,7 +671,6 @@
     left: 618px;
     top: 0px;
     position: absolute;
-    transform-origin: 0 0;
   }
   .aboutcont {
     position: relative;
@@ -823,7 +819,6 @@
     left: 0px;
     top: 645px;
     position: absolute;
-    transform-origin: 0 0;
   }
   .outerAbout .innerAbout {
     display: flex;
@@ -971,7 +966,6 @@
     left: 0px;
     top: 645px;
     position: absolute;
-    transform-origin: 0 0;
   }
   .aboutcont {
     position: relative;
@@ -1122,7 +1116,6 @@
     left: 0px;
     top: 645px;
     position: absolute;
-    transform-origin: 0 0;
   }
   .aboutcont {
     position: relative;
@@ -1235,7 +1228,6 @@
     left: 0px;
     top: 645px;
     position: absolute;
-    transform-origin: 0 0;
   }
   .aboutcont {
     position: relative;

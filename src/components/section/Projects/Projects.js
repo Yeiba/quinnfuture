@@ -31,7 +31,7 @@ export const Projects = () => {
                                     </p>
                                 </div>
                             </a>
-                            <a href="https://www.behance.net/quinndsgn" target='_blank' >
+                            <a href="https://www.behance.net/quinnfuture" target='_blank' >
                                 <div class="boxproject">
                                     <h1 data-aos="fade-right" class="WorkH">
                                         Bricool<br />
@@ -46,7 +46,7 @@ export const Projects = () => {
                                 </div>
                             </a>
 
-                            <a href="https://www.behance.net/quinndsgn" target='_blank' >
+                            <a href="https://www.behance.net/quinnfuture" target='_blank' >
                                 <div class="boxproject">
                                     <h1 data-aos="fade-right" class="WorkH">
                                         kacademy <br />
@@ -64,7 +64,7 @@ export const Projects = () => {
                                 </div>
                             </a>
 
-                            <a href="https://www.behance.net/quinndsgn" target='_blank' >
+                            <a href="https://www.behance.net/quinnfuture" target='_blank' >
                                 <div class="boxproject">
                                     <h1 data-aos="fade-right" class="WorkH">
                                         iprobooking<br />
@@ -79,7 +79,7 @@ export const Projects = () => {
                                 </div>
                             </a>
 
-                            <a href="https://www.behance.net/quinndsgn" target='_blank' >
+                            <a href="https://www.behance.net/quinnfuture" target='_blank' >
                                 <div class="boxproject">
 
                                     <p data-aos="fade-right" class="WorkP" >
