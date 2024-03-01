@@ -9,46 +9,48 @@
         padding:0 1.5em;
         margin: 0 auto;
     }
+    .note2 {
+        left: 22%;
+    }
     .info {
-        top: 35%;
-        left: 20%;
+        top: 30%;
+        left: 22%;
         position: absolute;
         display: flex;
         z-index: 99;
-        font-size: 1.1rem;
+        font-size: 1rem;
         mix-blend-mode: difference ;
         color: #D1D1D1;
         text-align: left;
         font-family: Helvetica;
         font-style: normal;
         text-transform: uppercase;
-        font-weight: 50;
+
         letter-spacing: .15rem;
     
         
     }
     .info2 {
-        top: 60%;
-        left: 20%;
+        top: 50%;
+        left: 22%;
         position: absolute;
         display: flex;
         z-index: 99;
-        font-size: 1.1rem;
+        font-size: 1rem;
         mix-blend-mode: difference ;
         color: #D1D1D1;
         text-align: left;
         font-family: Helvetica;
         font-style: normal;
         text-transform: uppercase;
-        font-weight: 50;
+
         letter-spacing: .15rem;
     
         
     }
-    
-    .SM {
-        top: 30%;
-        left: 55%;
+    .info3 {
+        top: 68%;
+        left: 22%;
         position: absolute;
         display: flex;
         z-index: 99;
@@ -59,7 +61,25 @@
         font-family: Helvetica;
         font-style: normal;
         text-transform: uppercase;
-        font-weight: 50;
+
+        letter-spacing: .15rem;
+    
+        
+    }
+    .SM {
+        top: 28%;
+        left: 55%;
+        position: absolute;
+        display: flex;
+        z-index: 99;
+        font-size: 1rem;
+        mix-blend-mode: difference ;
+        color: #D1D1D1;
+        text-align: left;
+        font-family: Helvetica;
+        font-style: normal;
+        text-transform: uppercase;
+
         letter-spacing: .15rem;
     }
     
@@ -69,41 +89,176 @@
         position: absolute;
         display: flex;
         z-index: 99;
-        font-size: .8rem;
+        font-size: 1rem;
         mix-blend-mode: difference ;
         color: #D1D1D1;
         text-align: center;
         font-family: Helvetica;
         font-style: normal;
         text-transform: uppercase;
-        font-weight: 50;
+
         letter-spacing: .15rem;
     }
+    #contact_1 {
+        width: 415px; height: 368px; left: 0px; top: 900px; position: absolute; transform: rotate(-90deg); transform-origin: 0 0; border-radius: 16px
+    }
+
+    #contact_2 {
+        width: 206px; height: 381px; left: 1539px; top: 206px; position: absolute; transform: rotate(-90deg); transform-origin: 0 0; border-radius: 16px
+    }
+    #contact_3 {
+        width: 484px; height: 368px; left: 0px; top: 484px; position: absolute; transform: rotate(-90deg); transform-origin: 0 0; border-radius: 16px
+    }
+
+    #contact_4 {
+        width: 693px; height: 381px; left: 1539px; top: 900px; position: absolute; transform: rotate(-90deg); transform-origin: 0 0; border-radius: 16px
+    }
+
+    #contact_5 {
+        width: 504px; height: 601px; left: 369px; top: 702px; position: absolute; transform: rotate(-90deg); transform-origin: 0 0; border-radius: 16px
+    }
+
+    #contact_6 {
+        width: 197px; height: 601px; left: 369px; top: 197px; position: absolute; transform: rotate(-90deg); transform-origin: 0 0; border-radius: 16px
+    }
+    #contact_7 {
+        width: 702px; height: 567px; left: 971px; top: 702px; position: absolute; transform: rotate(-90deg); transform-origin: 0 0; border-radius: 16px
+    }
+    #contact_8 {
+        width: 197px; height: 1169px; left: 369px; top: 900px; position: absolute; transform: rotate(-90deg); transform-origin: 0 0; border-radius: 16px
+        }
 }
 
 
 @media only screen and (max-width: 1600px) {
     .foter {
 
-        left: 38%;
+        left: 40%;
        
 
     }
-}
-@media only screen and (max-width: 1440px) {
+    .note2 {
+        left: 16%;
+    }
     .info {
-        top: 38%;
-        left: 15%;
+        top: 30%;
+        left: 16%;
+        position: absolute;
+        display: flex;
+        z-index: 99;
+        font-size: 1rem;
+        mix-blend-mode: difference ;
+        color: #D1D1D1;
+        text-align: left;
+        font-family: Helvetica;
+        font-style: normal;
+        text-transform: uppercase;
+
+        letter-spacing: .15rem;
+    
         
     }
     .info2 {
-     
-        left: 15%;
+        top: 50%;
+        left: 16%;
+        position: absolute;
+        display: flex;
+        z-index: 99;
+        font-size: 1rem;
+        mix-blend-mode: difference ;
+        color: #D1D1D1;
+        text-align: left;
+        font-family: Helvetica;
+        font-style: normal;
+        text-transform: uppercase;
+
+        letter-spacing: .15rem;
+    
+        
+    }
+    .info3 {
+        top: 68%;
+        left: 16%;
+        position: absolute;
+        display: flex;
+        z-index: 99;
+        font-size: 1rem;
+        mix-blend-mode: difference ;
+        color: #D1D1D1;
+        text-align: left;
+        font-family: Helvetica;
+        font-style: normal;
+        text-transform: uppercase;
+
+        letter-spacing: .15rem;
+    
         
     }
     
     .SM {
-        top: 35%;
+        top: 28%;
+        left: 54%;
+        position: absolute;
+        display: flex;
+        z-index: 99;
+        font-size: 1rem;
+        mix-blend-mode: difference ;
+        color: #D1D1D1;
+        text-align: left;
+        font-family: Helvetica;
+        font-style: normal;
+        text-transform: uppercase;
+
+        letter-spacing: .15rem;
+    }
+    
+    #contact_1 {
+        width: 415px; height: 210.87px; left: 0px; top: 900px; position: absolute; transform: rotate(-90deg); transform-origin: 0 0; border-radius: 16px
+    }
+
+    #contact_2 {
+        width: 206px; height: 223.02px; left: 1376.98px; top: 206px; position: absolute; transform: rotate(-90deg); transform-origin: 0 0; border-radius: 16px
+    }
+    #contact_3 {
+        width: 484px; height: 210.87px; left: 0px; top: 484px; position: absolute; transform: rotate(-90deg); transform-origin: 0 0; border-radius: 16px
+    }
+
+    #contact_4 {
+        width: 693px; height: 223.02px; left: 1376.98px; top: 900px; position: absolute; transform: rotate(-90deg); transform-origin: 0 0; border-radius: 16px
+    }
+
+    #contact_5 {
+        width: 504px; height: 598.63px; left: 211.87px; top: 702px; position: absolute; transform: rotate(-90deg); transform-origin: 0 0; border-radius: 16px
+    }
+
+    #contact_6 {
+        width: 197px; height: 598.63px; left: 211.87px; top: 197px; position: absolute; transform: rotate(-90deg); transform-origin: 0 0; border-radius: 16px
+    }
+    #contact_7 {
+        width: 702px; height: 564.53px; left: 811.45px; top: 702px; position: absolute; transform: rotate(-90deg); transform-origin: 0 0; border-radius: 16px
+    }
+    #contact_8 {
+        width: 197px; height: 1163.91px; left: 212.08px; top: 900px; position: absolute; transform: rotate(-90deg); transform-origin: 0 0; border-radius: 16px
+        }
+}
+@media only screen and (max-width: 1440px) {
+    .info {
+        top: 30%;
+        left: 15%;
+        
+    }
+    .info2 {
+        top: 50%;
+        left: 15%;
+        
+    }
+    .info3 {
+        top: 68%;
+        left: 15%;
+    }
+    
+    .SM {
+        top: 28%;
         left: 55%;
    
       
@@ -111,12 +266,43 @@
 
     .foter {
 
-        left: 36%;
+        left: 40%;
        
 
     }
+    #contact_1 {
+        width: 415px; height: 128px; left: 0px; top: 900px; position: absolute; transform: rotate(-90deg); transform-origin: 0 0; border-radius: 16px
+    }
+
+    #contact_2 {
+        width: 495px; height: 601px; left: 129px; top: 702px; position: absolute; transform: rotate(-90deg); transform-origin: 0 0; border-radius: 16px
+    }
+    #contact_3 {
+        width: 206px; height: 601px; left: 129px; top: 206px; position: absolute; transform: rotate(-90deg); transform-origin: 0 0; border-radius: 16px
+    }
+
+    #contact_4 {
+        width: 702px; height: 567px; left: 731px; top: 702px; position: absolute; transform: rotate(-90deg); transform-origin: 0 0; border-radius: 16px
+    }
+
+    #contact_5 {
+        width: 206px; height: 141px; left: 1299px; top: 206px; position: absolute; transform: rotate(-90deg); transform-origin: 0 0; border-radius: 16px
+    }
+
+    #contact_6 {
+        width: 484px; height: 128px; left: 0px; top: 484px; position: absolute; transform: rotate(-90deg); transform-origin: 0 0; border-radius: 16px
+    }
+    #contact_7 {
+        width: 693px; height: 141px; left: 1299px; top: 900px; position: absolute; transform: rotate(-90deg); transform-origin: 0 0; border-radius: 16px
+    }
+    #contact_8 {
+        width: 197px; height: 1169px; left: 129px; top: 900px; position: absolute; transform: rotate(-90deg); transform-origin: 0 0; border-radius: 16px
+        }
 }
 @media only screen and (max-width: 1200px) {
+    .note2 {
+        left: 10%;
+    }
     .info {
         top: 30%;
         left: 10%;
@@ -126,40 +312,72 @@
     .info2 {
         top: 45%;
         left: 10%;
-        
-
+    
+    }
+    .info3 {
+        top: 68%;
+        left: 10%;
     }
     
     .SM {
-        top: 60%;
-        left: 10%;
-        text-align: left;
+        top: 28%;
+        left: 60%;
+   
       
     }
     .foter {
 
-        left: 34%;
-        
-
-
+        left: 38%;
     }
+    #contact_1 {
+        width: 495px; height: 617px; left: 0px; top: 702px; position: absolute; transform: rotate(-90deg); transform-origin: 0 0; border-radius: 16px
+    }
+
+    #contact_2 {
+        width: 702px; height: 582px; left: 618px; top: 702px; position: absolute; transform: rotate(-90deg); transform-origin: 0 0; border-radius: 16px
+    }
+    #contact_3 {
+        width: 197px; height: 1200px; left: 0px; top: 900px; position: absolute; transform: rotate(-90deg); transform-origin: 0 0; border-radius: 16px
+    }
+
+    #contact_4 {
+        width: 206px; height: 617px; left: 0px; top: 206px; position: absolute; transform: rotate(-90deg); transform-origin: 0 0; border-radius: 16px
+    }
+
+    #contact_5 {
+        width: 0px; height: 0px; opacity: 0%;
+        }
+
+    #contact_6 {
+        width: 0px; height: 0px; opacity: 0%;
+        }
+    #contact_7 {
+        width: 0px; height: 0px; opacity: 0%;
+        }
+    #contact_8 {
+        width: 0px; height: 0px; opacity: 0%;
+        }
 }
 
 @media only screen and (max-width: 1024px) {
     .info {
-        top: 25%;
+        top: 15%;
         left: 10%;
 
     }
     .info2 {
-        top: 40%;
+        top: 35%;
         left: 10%;
 
+    }
+    .info3 {
+        top: 52%;
+        left: 10%;
     }
 
     
     .SM {
-        top: 60%;
+        top: 65%;
         left: 10%;
         text-align: left;
       
@@ -167,19 +385,77 @@
 
     .foter {
 
-        left: 32%;
-
-
+        left: 35%;
 
     }
+    #contact_1 {
+        width: 1024px; height: 562px; left: 1024px; top: 562px; position: absolute; transform: rotate(-180deg); transform-origin: 0 0; border-radius: 8px
+    }
+
+    #contact_2 {
+        width: 1024px; height: 179px; left: 1024px; top: 742px; position: absolute; transform: rotate(-180deg); transform-origin: 0 0; border-radius: 8px
+    }
+    #contact_3 {
+        width: 1024px; height: 157px; left: 1024px; top: 900px; position: absolute; transform: rotate(-180deg); transform-origin: 0 0; border-radius: 8px
+    }
+
+    #contact_4 {
+        width: 0px; height: 0px; opacity: 0%;
+    }
+
+    #contact_5 {
+        width: 0px; height: 0px; opacity: 0%;
+        }
+
+    #contact_6 {
+        width: 0px; height: 0px; opacity: 0%;
+        }
+    #contact_7 {
+        width: 0px; height: 0px; opacity: 0%;
+        }
+    #contact_8 {
+        width: 0px; height: 0px; opacity: 0%;
+        }
 }
 
 @media only screen and (max-width: 768px) {
     .foter {
  
-        left: 25%;
+        left: 30%;
+    }
+    .SM {
+        top: 65%;
+
       
     }
+    #contact_1 {
+        width: 768px; height: 562px; left: 768px; top: 562px; position: absolute; transform: rotate(-180deg); transform-origin: 0 0; border-radius: 8px
+    }
+
+    #contact_2 {
+        width: 768px; height: 179px; left: 768px; top: 742px; position: absolute; transform: rotate(-180deg); transform-origin: 0 0; border-radius: 8px
+    }
+    #contact_3 {
+        width: 768px; height: 157px; left: 768px; top: 900px; position: absolute; transform: rotate(-180deg); transform-origin: 0 0; border-radius: 8px
+    }
+
+    #contact_4 {
+        width: 0px; height: 0px; opacity: 0%;
+    }
+
+    #contact_5 {
+        width: 0px; height: 0px; opacity: 0%;
+        }
+
+    #contact_6 {
+        width: 0px; height: 0px; opacity: 0%;
+        }
+    #contact_7 {
+        width: 0px; height: 0px; opacity: 0%;
+        }
+    #contact_8 {
+        width: 0px; height: 0px; opacity: 0%;
+        }
 
 }
 
@@ -198,16 +474,43 @@
     }
     
     .SM {
-        top: 55%;
+        top: 65%;
         left: 10%;
-      
       
     }
     .foter {
      
-        left: 20%;
+        left: 25%;
       
     }
+    #contact_1 {
+        width: 624px; height: 562px; left: 624px; top: 562px; position: absolute; transform: rotate(-180deg); transform-origin: 0 0; border-radius: 8px  
+    }
+
+    #contact_2 {
+        width: 624px; height: 179px; left: 624px; top: 742px; position: absolute; transform: rotate(-180deg); transform-origin: 0 0; border-radius: 8px
+     }
+    #contact_3 {
+        width: 624px; height: 157px; left: 624px; top: 900px; position: absolute; transform: rotate(-180deg); transform-origin: 0 0; border-radius: 8px
+    }
+
+    #contact_4 {
+        width: 0px; height: 0px; opacity: 0%;
+    }
+
+    #contact_5 {
+        width: 0px; height: 0px; opacity: 0%;
+        }
+
+    #contact_6 {
+        width: 0px; height: 0px; opacity: 0%;
+        }
+    #contact_7 {
+        width: 0px; height: 0px; opacity: 0%;
+        }
+    #contact_8 {
+        width: 0px; height: 0px; opacity: 0%;
+        }
 }
 @media only screen and (max-width: 480px) {
     .info {
@@ -220,16 +523,49 @@
         font-size: .8rem;
 
     }
-    
+    .info3 {
+        top: 50%;
+        left: 10%;
+        font-size: .8rem;
+    }
     .SM {
   
         font-size: .8rem;
-      
+        top: 67%;
+
     }
     .foter {
       
         font-size: .8rem;
-        left: 10%;
+        left: 20%;
       
     }
+    #contact_1 {
+        width: 480px; height: 562px; left: 480px; top: 562px; position: absolute; transform: rotate(-180deg); transform-origin: 0 0; border-radius: 8px
+    }
+
+    #contact_2 {
+        width: 480px; height: 179px; left: 480px; top: 742px; position: absolute; transform: rotate(-180deg); transform-origin: 0 0; border-radius: 8px
+    }
+    #contact_3 {
+        width: 480px; height: 157px; left: 480px; top: 900px; position: absolute; transform: rotate(-180deg); transform-origin: 0 0; border-radius: 8px
+    }
+
+    #contact_4 {
+        width: 0px; height: 0px; opacity: 0%;
+    }
+
+    #contact_5 {
+        width: 0px; height: 0px; opacity: 0%;
+        }
+
+    #contact_6 {
+        width: 0px; height: 0px; opacity: 0%;
+        }
+    #contact_7 {
+        width: 0px; height: 0px; opacity: 0%;
+        }
+    #contact_8 {
+        width: 0px; height: 0px; opacity: 0%;
+        }
 }

@@ -17,6 +17,7 @@
         z-index: 1;
         width: 100%;
         overflow:scroll;
+        scrollbar-width: none;
     }
     .outer::-webkit-scrollbar{
         display: none;

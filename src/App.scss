@@ -5,7 +5,8 @@
     padding: 0;
     scroll-behavior: smooth;
     background-clip: border-box;
-    scrollbar-width: thin;
+    scrollbar-width: none;
+    
     
 }
 img {
@@ -25,12 +26,16 @@ img {
 section::-webkit-scrollbar{
     display: none;
 }
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
     display: none;
-}
+  }
+html {
+    scrollbar-width: none;
+  }
+
 
 body {
-    background-color: rgb(142, 142, 142);
+    background-color: #D1D1D1;
     
 }
 

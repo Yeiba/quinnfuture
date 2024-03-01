@@ -13,7 +13,7 @@ export const Contact = () => {
     return (
         <>
             <section id="contact">
-                <div data-aos="fade-right" class="note2">#contact_us\</div>
+                <div data-aos="fade-right" class="note2">#contact\</div>
                 <div class="contactcontant" >
                     <div data-aos="fade-up" class="info">yaakoub belhardi<br />
                         CEO Founder <br />
@@ -28,6 +28,12 @@ export const Contact = () => {
                         <br />
                         TIZI OUZOU, ALGERIA<br />
                         (+213) 676 38 46 49
+
+                    </div>
+                    <div data-aos="fade-up" class="info3">
+
+                        contact@quinnfuture.com
+
 
                     </div>
                     <div data-aos="fade-up" data-aos-duration="3500" class="SM">
@@ -46,15 +52,14 @@ export const Contact = () => {
                     </div>
                 </div>
                 <div class="Background">
-                    <div class="Frame1" id="home_1"></div>
-                    <div class="Frame1" id="home_2"></div>
-                    <div class="Frame1" id="home_3"></div>
-                    <div class="Frame1" id="home_4"></div>
-                    <div class="Frame1" id="home_5"></div>
-                    <div class="Frame1" id="home_6"></div>
-                    <div class="Frame1" id="home_7"></div>
-                    <div class="Frame1" id="home_8"></div>
-                    <div class="Frame1" id="home_9"></div>
+                    <div class="Frame1" id="contact_1"></div>
+                    <div class="Frame1" id="contact_2"></div>
+                    <div class="Frame1" id="contact_3"></div>
+                    <div class="Frame1" id="contact_4"></div>
+                    <div class="Frame1" id="contact_5"></div>
+                    <div class="Frame1" id="contact_6"></div>
+                    <div class="Frame1" id="contact_7"></div>
+                    <div class="Frame1" id="contact_8"></div>
                 </div>
             </section>
         </>
