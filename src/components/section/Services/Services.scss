@@ -21,6 +21,23 @@
         mix-blend-mode: difference;
       
     }
+    .note2 {
+        top: 8%;
+        left: 20%;
+        position: absolute;
+
+        z-index: 99;
+
+        mix-blend-mode: difference ;
+        color: #D1D1D1;
+        text-align: center;
+        font-family: Helvetica;
+        font-style: normal;
+        text-transform: uppercase;
+        font-size: 4rem;
+        mix-blend-mode: difference;
+    
+    }
    
     .ServH {
         position: absolute;

@@ -12,7 +12,7 @@ export const About = () => {
     <>
       <section id="about">
 
-        <div data-aos="fade-right" class="note2">#About_us\</div>
+        <div data-aos="fade-right" class="noteabout">#About\</div>
         <div class="aboutcontant" >
 
           <div data-aos="fade-up" class="name">Quinn Future</div>
@@ -31,7 +31,7 @@ export const About = () => {
 
               <div class="innerAbout">
 
-                <div className="bordertop"></div>
+                <div className="bordertopabout"></div>
 
                 <div class="boxabout">
                   <div className='name'> yaakoub belhardi</div>
@@ -63,7 +63,7 @@ export const About = () => {
                 </div>
 
 
-                <div className="borderbottom"></div>
+                <div className="borderbottomabout"></div>
               </div>
             </div>
           </div>

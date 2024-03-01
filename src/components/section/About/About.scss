@@ -24,10 +24,22 @@
         letter-spacing: .15rem;
 
     }
-    .note2 {
-        left: 22%;
-        letter-spacing: .15rem;
+    .noteabout {
+        top: 8%;
+        left: 20%;
+        position: absolute;
 
+        z-index: 99;
+
+        mix-blend-mode: difference ;
+        color: #D1D1D1;
+        text-align: center;
+        font-family: Helvetica;
+        font-style: normal;
+        text-transform: uppercase;
+        font-size: 4rem;
+        mix-blend-mode: difference;
+    
     }
 
     .dis {
@@ -119,8 +131,6 @@
         width: 567px; height: 900px; left: 971px; top: 0px; position: absolute;  ;
         
     }
-    
-    
     .aboutcont {
         position: relative;
         width: 100%; 
@@ -145,7 +155,7 @@
    
     
     
-    .bordertop {
+    .bordertopabout {
         
         transition: 1.2s;
         &:hover {
@@ -158,7 +168,7 @@
         height: 23%;
         float: left;
     }
-    .borderbottom {
+    .borderbottomabout {
 
         transition: 1.2s;
         &:hover {
@@ -221,9 +231,7 @@
 
 }
 @media only screen and (max-width: 1600px) {
-    .note2 {
-        left: 16%;
-    }
+    
     .name {
         top: 30%;
         left: 16%;
@@ -361,32 +369,7 @@
         display: none;
     }
     
-    .bordertop {
 
-        transition: 1.2s;
-        &:hover {
-            background-color: rgb(255, 255, 255);
-        }
-        margin: 0  1px 1px 0;
-        background-color: rgb(0, 0, 0);
-        border-radius: 16px;
-        width: 100%;
-        height: 23%;
-        float: left;
-    }
-    .borderbottom {
-
-        transition: 1.2s;
-        &:hover {
-            background-color: rgb(255, 255, 255);
-        }
-        margin: 0  1px 1px 0;
-        background-color: rgb(0, 0, 0);
-        border-radius: 16px;
-        width: 100%;
-        height: 23%;
-        float: left;
-    }
     .outerAbout .innerAbout div.boxabout {
         
         // transform: rotate(-90deg);
@@ -435,7 +418,9 @@
     }
 }
 @media only screen and (max-width: 1440px) {
-
+    .noteabout{
+        left: 15%;
+    }
     .name {
         left: 15%;
     }
@@ -490,32 +475,7 @@
         display: none;
       }
     
-    .bordertop {
-
-        transition: 1.2s;
-        &:hover {
-            background-color: rgb(255, 255, 255);
-        }
-        margin: 0  1px 1px 0;
-        background-color: rgb(0, 0, 0);
-        border-radius: 16px;
-        width: 100%;
-        height: 23%;
-        float: left;
-    }
-    .borderbottom {
-
-        transition: 1.2s;
-        &:hover {
-            background-color: rgb(255, 255, 255);
-        }
-        margin: 0  1px 1px 0;
-        background-color: rgb(0, 0, 0);
-        border-radius: 16px;
-        width: 100%;
-        height: 23%;
-        float: left;
-    }
+    
     .outerAbout .innerAbout div.boxabout {
         
         // transform: rotate(-90deg);
@@ -564,6 +524,9 @@
     }
 }
 @media only screen and (max-width: 1200px) {
+    .noteabout{
+        left: 10%;
+    }
     .name {
         top: 30%;
         left: 10%;
@@ -637,32 +600,7 @@
         display: none;
     }
     
-    .bordertop {
-
-        transition: 1.2s;
-        &:hover {
-            background-color: rgb(255, 255, 255);
-        }
-        margin: 0  1px 1px 0;
-        background-color: rgb(0, 0, 0);
-        border-radius: 16px;
-        width: 100%;
-        height: 23%;
-        float: left;
-    }
-    .borderbottom {
-
-        transition: 1.2s;
-        &:hover {
-            background-color: rgb(255, 255, 255);
-        }
-        margin: 0  1px 1px 0;
-        background-color: rgb(0, 0, 0);
-        border-radius: 16px;
-        width: 100%;
-        height: 23%;
-        float: left;
-    }
+    
     .outerAbout .innerAbout div.boxabout {
         
         // transform: rotate(-90deg);
@@ -712,6 +650,11 @@
 }
 
 @media only screen and (max-width: 1024px) {
+    .noteabout {
+        top: 2%;
+        left: 10%;
+        font-size: 3rem;
+    }
 
     .name {
         top: 20%;
@@ -787,7 +730,7 @@
         
         
     }
-    .bordertop {
+    .bordertopabout {
         
         transition: 1.2s;
         &:hover {
@@ -798,12 +741,11 @@
         border-radius: 10px;
         width: 18%;
         height: 100%;
-        float: left;
+        float: right;
         flex: 0 0 auto;
 
     }
-    .borderbottom {
-
+    .borderbottomabout {
         transition: 1.2s;
         &:hover {
             background-color: rgb(255, 255, 255);
@@ -869,6 +811,11 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .noteabout {
+        top: 2%;
+        left: 10%;
+        
+    }
     .name {
         top: 20%;
         left: 10%;
@@ -1026,6 +973,11 @@
 }
 
 @media only screen and (max-width: 624px) {
+    .noteabout {
+        top: 2%;
+        left: 10%;
+        font-size: 3rem;
+    }
     .name {
         top: 20%;
         left: 10%;
@@ -1181,6 +1133,11 @@
 }
 
 @media only screen and (max-width: 480px) {
+    .noteabout {
+        top: 2%;
+        left: 10%;
+        font-size: 2.5rem;
+    }
     // ===============================================================================================
     .outerAbout {
         z-index: 1;
