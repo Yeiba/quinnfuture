@@ -15,13 +15,21 @@ export const Contact = () => {
             <section id="contact">
                 <div data-aos="fade-right" class="notecontact">#contact\</div>
                 <div class="contactcontant" >
-                    <div data-aos="fade-up" data-aos-duration="3500" class="SM">
+                    <div data-aos="fade-up" data-aos-duration="3500" class="info3">
                         <br />From monday To Friday
                         <br />09:30 am to 04:00 pm
                         <br />you must schedule an appointment
                         <br />via email or phone call
                         <br />thank you
                         <br />
+                        <br />said hamddin, bir nourad rais, ALGIERS
+                        <br />16000
+                        <br />ALGIERS, algeria
+
+
+
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="3500" class="SM">
                         <br />facebook @quinnfuture
                         <br />instagram @quinnfuture
                         <br />behance @quinnfuture
@@ -43,7 +51,7 @@ export const Contact = () => {
 
                             <div class="innerContact">
 
-                                {/* <div className="bordertopcontact"></div> */}
+                                <div className="bordertopcontact"></div>
 
                                 <div class="boxcontact">
                                     <div data-aos="fade-up" class="conatctInfo">yaakoub belhardi<br />
@@ -78,17 +86,8 @@ export const Contact = () => {
 
                                     </div>
                                 </div>
-                                <div class="boxcontact">
 
-                                    <div data-aos="fade-up" data-aos-duration="3500" class="conatctInfo">
-                                        <br />facebook @quinnfuture
-                                        <br />instagram @quinnfuture
-                                        <br />behance @quinnfuture
-                                        <br />linkedin /company/quinnfuture
-
-                                    </div>
-                                </div>
-                                {/* <div className="borderbottomcontact"></div> */}
+                                <div className="borderbottomcontact"></div>
                             </div>
                         </div>
                     </div>

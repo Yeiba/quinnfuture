@@ -520,13 +520,17 @@
 
     }
     .info3 {
-        top: 52%;
+        top: 15%;
         left: 10%;
+        font-size: 0.8rem;
     }
 
     
     .SM {
-        font-size: 0rem;
+        
+        top: 68%;
+        left: 10%;
+        font-size: 0.8rem;
       
     }
 
@@ -535,20 +539,88 @@
         left: 32%;
 
     }
-    // ===============================================================================================
-    .outerContact {
+     // ===============================================================================================
+     .outerContact {
+        z-index: 1;
 
-        width: 1024px; height: 544px; left: 0px; top: 198px;
-    }
-     .outerContact .innerContact div.boxcontact {
-        height: 40%;
-        border-radius: 8px;
+        width: 1024px; height: 200px;  left: 0px; top: 362px; position: absolute; 
         
     }
+    .outerContact .innerContact {
+        display: flex;
+        overflow-y:hidden;
+        overflow-x:auto;
+        width: 100%; 
+        height: 100%; 
+        background-color: #D1D1D1;
+        scrollbar-width: none;
+        
+    }
+    .innerContact::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .contactcont {
+        position: relative;
+        width: 100%; 
+        height: 100%; 
+        
+        
+    }
+    .bordertopcontact {
+        
+        transition: 1.2s;
+        &:hover {
+            background-color: rgb(255, 255, 255);
+        }
+        margin: 0 1px 0 0;
+        background-color: rgb(0, 0, 0);
+        border-radius: 10px;
+        width: 18%;
+        height: 100%;
+        float: right;
+        flex: 0 0 auto;
 
+    }
+    .borderbottomcontact {
+        transition: 1.2s;
+        &:hover {
+            background-color: rgb(255, 255, 255);
+        }
+        margin: 0 1px 0 0;
+        background-color: rgb(0, 0, 0);
+        border-radius: 10px;
+        width: 18%;
+        height: 100%;
+        float: right;
+        flex: 0 0 auto;
+   
+        
+    }
+    .outerContact .innerContact div.boxcontact {
+        
+
+        position: relative; 
+        
+        place-items: center;
+        overflow: hidden;
+      
+        transition: 1.2s;
+        &:hover {
+            background-color: rgb(255, 255, 255);
+        }
+        
+        margin: 0 1px 0  0;
+        background-color: rgb(0, 0, 0);
+        border-radius: 10px;
+        width: 70%;
+        height: 100%;
+        float:left;
+        flex: 0 0 auto;
+    }
 // =================================================================
     #contact_1 {
-        width: 1024px; height: 196px;  left: 1024px; top: 197px; position: absolute; transform: rotate(-180deg); transform-origin: 0 0; border-radius: 8px
+        width: 1024px; height: 361px;  left: 1024px; top: 361px; position: absolute; transform: rotate(-180deg); transform-origin: 0 0; border-radius: 8px
     }
 
     #contact_2 {
@@ -587,24 +659,102 @@
  
         left: 25%;
     }
-    .SM {
-        top: 65%;
+    
+    .info3 {
+        top: 15%;
+        left: 10%;
+        font-size: 0.8rem;
+    }
 
+    
+    .SM {
+        
+        top: 68%;
+        
       
     }
     // ===============================================================================================
     .outerContact {
+        z-index: 1;
 
-        width: 768px; height: 544px; left: 0px; top: 198px;
-    }
-    .outerContact .innerContact div.boxcontact {
-        height: 40%;
+        width: 768px; height: 200px;  left: 0px; top: 362px; position: absolute; 
         
     }
+    .outerContact .innerContact {
+        display: flex;
+        overflow-y:hidden;
+        overflow-x:auto;
+        width: 100%; 
+        height: 100%; 
+        background-color: #D1D1D1;
+        scrollbar-width: none;
+        
+    }
+    .innerContact::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .contactcont {
+        position: relative;
+        width: 100%; 
+        height: 100%; 
+        
+        
+    }
+    .bordertopcontact {
+        
+        transition: 1.2s;
+        &:hover {
+            background-color: rgb(255, 255, 255);
+        }
+        margin: 0 1px 0 0;
+        background-color: rgb(0, 0, 0);
+        border-radius: 10px;
+        width: 18%;
+        height: 100%;
+        float: right;
+        flex: 0 0 auto;
 
+    }
+    .borderbottomcontact {
+        transition: 1.2s;
+        &:hover {
+            background-color: rgb(255, 255, 255);
+        }
+        margin: 0 1px 0 0;
+        background-color: rgb(0, 0, 0);
+        border-radius: 10px;
+        width: 18%;
+        height: 100%;
+        float: right;
+        flex: 0 0 auto;
+   
+        
+    }
+    .outerContact .innerContact div.boxcontact {
+        
+
+        position: relative; 
+        
+        place-items: center;
+        overflow: hidden;
+      
+        transition: 1.2s;
+        &:hover {
+            background-color: rgb(255, 255, 255);
+        }
+        
+        margin: 0 1px 0  0;
+        background-color: rgb(0, 0, 0);
+        border-radius: 10px;
+        width: 70%;
+        height: 100%;
+        float:left;
+        flex: 0 0 auto;
+    }
 // =================================================================
     #contact_1 {
-        width: 768px; height: 197px; left: 768px; top: 197px; position: absolute; transform: rotate(-180deg); transform-origin: 0 0; border-radius: 8px
+        width: 768px; height: 361px;  left: 768px; top: 361px; position: absolute; transform: rotate(-180deg); transform-origin: 0 0; border-radius: 8px
     }
 
     #contact_2 {
@@ -654,7 +804,7 @@
     }
     
     .SM {
-        top: 65%;
+        top: 67%;
         left: 10%;
       
     }
@@ -665,17 +815,86 @@
     }
     // ===============================================================================================
     .outerContact {
+        z-index: 1;
 
-        width: 624px; height: 544px; left: 0px; top: 198px;
-    }
-    .outerContact .innerContact div.boxcontact {
-        height: 40%;
+        width: 624px; height: 200px;  left: 0px; top: 362px; position: absolute; 
         
     }
+    .outerContact .innerContact {
+        display: flex;
+        overflow-y:hidden;
+        overflow-x:auto;
+        width: 100%; 
+        height: 100%; 
+        background-color: #D1D1D1;
+        scrollbar-width: none;
+        
+    }
+    .innerContact::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .contactcont {
+        position: relative;
+        width: 100%; 
+        height: 100%; 
+        
+        
+    }
+    .bordertopcontact {
+        
+        transition: 1.2s;
+        &:hover {
+            background-color: rgb(255, 255, 255);
+        }
+        margin: 0 1px 0 0;
+        background-color: rgb(0, 0, 0);
+        border-radius: 10px;
+        width: 18%;
+        height: 100%;
+        float: right;
+        flex: 0 0 auto;
 
+    }
+    .borderbottomcontact {
+        transition: 1.2s;
+        &:hover {
+            background-color: rgb(255, 255, 255);
+        }
+        margin: 0 1px 0 0;
+        background-color: rgb(0, 0, 0);
+        border-radius: 10px;
+        width: 18%;
+        height: 100%;
+        float: right;
+        flex: 0 0 auto;
+   
+        
+    }
+    .outerContact .innerContact div.boxcontact {
+        
+
+        position: relative; 
+        
+        place-items: center;
+        overflow: hidden;
+      
+        transition: 1.2s;
+        &:hover {
+            background-color: rgb(255, 255, 255);
+        }
+        
+        margin: 0 1px 0  0;
+        background-color: rgb(0, 0, 0);
+        border-radius: 10px;
+        width: 70%;
+        height: 100%;
+        float:left;
+        flex: 0 0 auto;
+    }
 // =================================================================
     #contact_1 {
-        width: 624px; height: 197px; left: 624px; top: 197px; position: absolute; transform: rotate(-180deg); transform-origin: 0 0; border-radius: 8px  
+        width: 624px; height: 361px;  left: 624px; top: 361px; position: absolute; transform: rotate(-180deg); transform-origin: 0 0; border-radius: 8px  
     }
 
     #contact_2 {
@@ -720,7 +939,7 @@
 
     }
     .info3 {
-        top: 50%;
+        top: 15%;
         left: 10%;
         font-size: .8rem;
     }
@@ -733,17 +952,86 @@
     }
     // ===============================================================================================
     .outerContact {
+        z-index: 1;
 
-        width: 480px; height: 544px; left: 0px; top: 198px;
-    }
-    .outerContact .innerContact div.boxcontact {
-        height: 30%;
+        width: 480px; height: 200px;  left: 0px; top: 362px; position: absolute; 
         
     }
+    .outerContact .innerContact {
+        display: flex;
+        overflow-y:hidden;
+        overflow-x:auto;
+        width: 100%; 
+        height: 100%; 
+        background-color: #D1D1D1;
+        scrollbar-width: none;
+        
+    }
+    .innerContact::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .contactcont {
+        position: relative;
+        width: 100%; 
+        height: 100%; 
+        
+        
+    }
+    .bordertopcontact {
+        
+        transition: 1.2s;
+        &:hover {
+            background-color: rgb(255, 255, 255);
+        }
+        margin: 0 1px 0 0;
+        background-color: rgb(0, 0, 0);
+        border-radius: 10px;
+        width: 0;
+        height: 0;
+        float: right;
+        flex: 0 0 auto;
 
+    }
+    .borderbottomcontact {
+        transition: 1.2s;
+        &:hover {
+            background-color: rgb(255, 255, 255);
+        }
+        margin: 0 1px 0 0;
+        background-color: rgb(0, 0, 0);
+        border-radius: 10px;
+        width: 0;
+        height: 0;
+        float: right;
+        flex: 0 0 auto;
+   
+        
+    }
+    .outerContact .innerContact div.boxcontact {
+        
+
+        position: relative; 
+        
+        place-items: center;
+        overflow: hidden;
+      
+        transition: 1.2s;
+        &:hover {
+            background-color: rgb(255, 255, 255);
+        }
+        
+        margin: 0 1px 0  0;
+        background-color: rgb(0, 0, 0);
+        border-radius: 10px;
+        width: 90%;
+        height: 100%;
+        float:left;
+        flex: 0 0 auto;
+    }
 // =================================================================
     #contact_1 {
-        width: 480px; height: 197px; left: 480px; top: 197px; position: absolute; transform: rotate(-180deg); transform-origin: 0 0; border-radius: 8px
+        width: 480px; height: 361px;  left: 480px; top: 361px; position: absolute; transform: rotate(-180deg); transform-origin: 0 0; border-radius: 8px
     }
 
     #contact_2 {
