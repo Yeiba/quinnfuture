@@ -20,6 +20,24 @@ export const Services = () => {
 
                             </div>
                             <div class="boxaservice">
+                                <h1 data-aos="fade-right" class="ServH">Big Data Solutions</h1>
+                                <p data-aos="fade-up" class="ServP">
+                                    #Atlas_big_data <br />
+                                    #DATA_SCIENCE <br />
+                                    #BIG_DATA_engineering <br />
+
+                                </p>
+                            </div>
+                            <div class="boxaservice">
+                                <h1 data-aos="fade-right" class="ServH">WEB DEVELOPMENT</h1>
+                                <p data-aos="fade-up" class="ServP">#UI/UX_DESIGN<br />
+                                    #WEB_APPLICATION <br />
+                                    #MOBIL_APPLICATION <br />
+
+
+                                </p>
+                            </div>
+                            <div class="boxaservice">
                                 <h1 data-aos="fade-right" class="ServH">BRANDING</h1>
                                 <p data-aos="fade-up" class="ServP">#BRAND_STRATEGY<br />
                                     #LOGO_DESIGN<br />
@@ -30,12 +48,12 @@ export const Services = () => {
                                 </p>
                             </div>
                             <div class="boxaservice">
-                                <h1 data-aos="fade-right" class="ServH">WEB DEVELOPMENT</h1>
-                                <p data-aos="fade-up" class="ServP">#UI/UX_DESIGN<br />
-                                    #WEB_APPLICATION <br />
-                                    #MOBIL_APPLICATION <br />
-                                    #DATA_SCIENCE <br />
-                                    #BIG_DATA_engineering <br />
+                                <h1 data-aos="fade-right" class="ServH">ai generated art</h1>
+                                <p data-aos="fade-up" class="ServP">
+                                    #ai_generated_videos<br />
+                                    #ai_generated_images<br />
+                                    #ai_product_design<br />
+                                    #ai_filmmaking_vfx<br />
 
                                 </p>
                             </div>

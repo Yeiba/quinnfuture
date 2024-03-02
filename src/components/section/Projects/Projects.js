@@ -17,6 +17,38 @@ export const Projects = () => {
                     <div className="cont">
                         <div class="inner">
                             <div class="border_2_1" ></div>
+                            <a href="https://www.behance.net/quinnfuture" target='_blank' >
+                                <div class="boxproject">
+                                    <h1 data-aos="fade-right" class="WorkH">
+                                        Atlas Big Data <br />
+
+                                    </h1>
+
+                                    <p data-aos="fade-up" class="WorkP">
+
+                                        • click • <br />
+                                        • to See the project •  <br />
+
+
+                                    </p>
+
+                                </div>
+                            </a>
+
+                            <a href="https://www.behance.net/quinnfuture" target='_blank' >
+                                <div class="boxproject">
+                                    <h1 data-aos="fade-right" class="WorkH">
+                                        Mazad marcketplace<br />
+
+                                    </h1>
+
+                                    <p data-aos="fade-up" class="WorkP">
+
+                                        • click • <br />
+                                        • to See the project •  <br />
+                                    </p>
+                                </div>
+                            </a>
                             <a href="https://www.behance.net/gallery/175804979/Nla-Milk-Box-3D-Packaging" target='_blank' >
                                 <div class="boxproject">
 
@@ -46,38 +78,7 @@ export const Projects = () => {
                                 </div>
                             </a>
 
-                            <a href="https://www.behance.net/quinnfuture" target='_blank' >
-                                <div class="boxproject">
-                                    <h1 data-aos="fade-right" class="WorkH">
-                                        kacademy <br />
 
-                                    </h1>
-
-                                    <p data-aos="fade-up" class="WorkP">
-
-                                        • click • <br />
-                                        • to See the project •  <br />
-
-
-                                    </p>
-
-                                </div>
-                            </a>
-
-                            <a href="https://www.behance.net/quinnfuture" target='_blank' >
-                                <div class="boxproject">
-                                    <h1 data-aos="fade-right" class="WorkH">
-                                        iprobooking<br />
-
-                                    </h1>
-
-                                    <p data-aos="fade-up" class="WorkP">
-
-                                        • click • <br />
-                                        • to See the project •  <br />
-                                    </p>
-                                </div>
-                            </a>
 
                             <a href="https://www.behance.net/quinnfuture" target='_blank' >
                                 <div class="boxproject">
