@@ -62,9 +62,7 @@ function App() {
                 #marketing #digital_creation #developement #evants #organization #advertising  #film_making  #producing #products_design #3D_creation"
         />
       </Helmet>
-
       <Navbar />
-
       <Home />
       <Services />
       <Projects />

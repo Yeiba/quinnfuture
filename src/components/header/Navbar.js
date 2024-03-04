@@ -69,22 +69,12 @@ export const Navbar = () => {
       setIsMenuVisible(false); // Close the menu when a section is clicked
     }
   };
-
-
   //////////////////////////
-  // window.onscroll = function () { background() }
-  // const background = () => {
-  //   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-  //     document.getElementById("header").className = "BG"
-  //   }
-  // };
-
 
 
   return (
     <>
       <body>
-
         <header>
           <a data-aos="fade-down" data-aos-duration="2800" href="#home" className="Logo">
             <svg xmlns="http://www.w3.org/2000/svg">
@@ -125,7 +115,6 @@ export const Navbar = () => {
           </nav>
 
         </header>
-
       </body>
     </>
   )
